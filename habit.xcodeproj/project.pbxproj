@@ -12,6 +12,8 @@
 		164C2EF5208C324F00BE2C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164C2EF3208C324F00BE2C33 /* Main.storyboard */; };
 		164C2EF7208C325200BE2C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164C2EF6208C325200BE2C33 /* Assets.xcassets */; };
 		164C2EFA208C325200BE2C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164C2EF8208C325200BE2C33 /* LaunchScreen.storyboard */; };
+		164C2F03208C330600BE2C33 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 164C2F02208C330600BE2C33 /* .gitignore */; };
+		164C2F05208C332500BE2C33 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 164C2F04208C332500BE2C33 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		164C2EF6208C325200BE2C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		164C2EF9208C325200BE2C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		164C2EFB208C325200BE2C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164C2F02208C330600BE2C33 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		164C2F04208C332500BE2C33 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		164C2EE3208C324E00BE2C33 = {
 			isa = PBXGroup;
 			children = (
+				164C2F04208C332500BE2C33 /* README.md */,
+				164C2F02208C330600BE2C33 /* .gitignore */,
 				164C2EEE208C324E00BE2C33 /* habit */,
 				164C2EED208C324E00BE2C33 /* Products */,
 			);
@@ -54,14 +60,22 @@
 		164C2EEE208C324E00BE2C33 /* habit */ = {
 			isa = PBXGroup;
 			children = (
-				164C2EEF208C324F00BE2C33 /* AppDelegate.swift */,
+				164C2F01208C326E00BE2C33 /* Supporting Files */,
 				164C2EF1208C324F00BE2C33 /* ViewController.swift */,
 				164C2EF3208C324F00BE2C33 /* Main.storyboard */,
 				164C2EF6208C325200BE2C33 /* Assets.xcassets */,
-				164C2EF8208C325200BE2C33 /* LaunchScreen.storyboard */,
 				164C2EFB208C325200BE2C33 /* Info.plist */,
 			);
 			path = habit;
+			sourceTree = "<group>";
+		};
+		164C2F01208C326E00BE2C33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				164C2EEF208C324F00BE2C33 /* AppDelegate.swift */,
+				164C2EF8208C325200BE2C33 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164C2F03208C330600BE2C33 /* .gitignore in Resources */,
 				164C2EFA208C325200BE2C33 /* LaunchScreen.storyboard in Resources */,
+				164C2F05208C332500BE2C33 /* README.md in Resources */,
 				164C2EF7208C325200BE2C33 /* Assets.xcassets in Resources */,
 				164C2EF5208C324F00BE2C33 /* Main.storyboard in Resources */,
 			);
